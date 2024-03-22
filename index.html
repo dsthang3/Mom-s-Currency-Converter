@@ -1,0 +1,36 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="centered">
+            <h1 class="title">Conversion Calculator: </h1>
+            <h2 class="title">USD to MMK</h2>
+
+            <form onsubmit = "convertCurrency()">
+                USD: <br>
+                <input name="amount" type="number"> <br> <br>
+                Kyat: <br>
+                <input name="currentCurrency" type="number"> <br> <br>
+
+                in Dollars: <br>
+                <input name="inDollars" type="number"> <br> <br>
+
+                <input type="submit">
+
+
+
+                <h2 id="output"></h2>
+                <h2 id="formulated"></h2>
+
+                <h2 id="secondForm"></h2>
+
+                <h2 id="testing"></h2>
+            </form>
+        </div>
+    </body>
+</html>
